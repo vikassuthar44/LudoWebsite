@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8" /></head>
+  <body>
+    <script>
+      const code = new URLSearchParams(location.search).get('code') || '';
+      const referrer = encodeURIComponent('code=' + code);
+      location.href =
+        'https://play.google.com/store/apps/details?id=best.app.ludo&referrer=' + referrer;
+    </script>
+  </body>
+</html>
