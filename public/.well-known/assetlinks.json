@@ -1,11 +1,15 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "best.app.ludo",
       "sha256_cert_fingerprints": [
-        "17:99:6E:C5:B3:BC:67:17:6D:05:34:69:EF:54:FC:21:59:BB:AF:09:8A:AC:4B:F7:F5:75:56:6A:56:B4:26:E5"
+        "17:99:6E:C5:B3:BC:67:17:6D:05:34:69:EF:54:FC:21:59:BB:AF:09:8A:AC:4B:F7:F5:75:56:6A:56:B4:26:E5",
+        "C2:E7:51:C2:F9:51:AF:B8:0D:AE:3E:D4:CE:14:E1:1E:B0:4A:F2:84:8E:92:04:8C:E7:D7:29:01:AE:2C:1D:C9"
       ]
     }
   }
